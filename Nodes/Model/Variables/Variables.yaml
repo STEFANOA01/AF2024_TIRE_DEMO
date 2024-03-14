@@ -1,0 +1,43 @@
+Name: Variables
+Type: FolderType
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 0
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 0
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 0
+- Name: Variable4
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 0
+- Name: Variable5
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 0
+- Name: Variable6
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 0
+- Name: Variable7
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 0
+- Name: Variable8
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 0
+- Name: Variable9
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 0
+- Name: Variable10
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 0

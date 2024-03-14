@@ -1,0 +1,28 @@
+Name: CPL Variables
+Type: FolderType
+Children:
+- Name: CPLVariableSelect
+  Id: g=d1955ab5a39399a8dbf1b9462c8d8442
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: 'CPL-A'
+  Id: g=a7f4b2a69cf3cc1b4c282476a06fc5dd
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "CPL-A"
+- Name: 'CPL-B'
+  Id: g=75fc6a9bb7ce4419c96bf3b32ef9ac64
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "CPL-B"
+- Name: 'CPL-C'
+  Id: g=38761487fdd2018bdf22cf94744b24dd
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "CPL-C"
+- Name: 'CPL-D'
+  Id: g=00d4226939485879ba8333fffc4a5a0d
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "CPL-D"

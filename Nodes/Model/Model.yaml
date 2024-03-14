@@ -1,0 +1,49 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: CycleTime
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/CylceTime/ACC"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: PlaceHolder
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 2
+- Name: PlaceHolder2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 2
+- Name: Clock
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "1601-01-01T00:00:00.0000000"
+- File: OPC_Items_/OPC_Items_.yaml
+- File: CPL_Variables/CPL_Variables.yaml
+- Name: CatFact
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: GITHUB_ARR_0_ID
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- File: Variables/Variables.yaml
+- Name: PressSide
+  Id: g=513f5d6ab0e24954dd42fee20bbe4427
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: PressID
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

@@ -1,0 +1,3619 @@
+Name: Alarms
+Type: AlarmsCategoryFolder
+Children:
+- Name: TCH1_CPLA_CP01L_CAVT1_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT1_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 1 TEMP- HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+- Name: TCH1_CPLA_CP01L_CAVT1_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT1_ALM/HInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 1 TEMP- H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+- Name: TCH1_CPLA_CP01L_CAVT1_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT1_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 1TEMP- L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+- Name: TCH1_CPLA_CP01L_CAVT1_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT1_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 1 TEMP- LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+- Name: TCH1_CPLA_CP01L_CAVT2_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT2_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 2 TEMP- HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_CAVT2_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT2_ALM/HLimit"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 2 TEMP- H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_CAVT2_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT2_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 2 TEMP- L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_CAVT2_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT2_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 2 TEMP- LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_CAVT3_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT3_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 3 TEMP- HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_CAVT3_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT3_ALM/HLimit"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 3 TEMP- H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_CAVT3_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT3_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 3 TEMP- L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_CAVT3_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_CAVT3_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_CAV 3 TEMP- LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_MOLD_TEMP_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_MOLD_TEMP_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_MOLD TEMP- HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_MOLD_TEMP_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_MOLD_TEMP_ALM/HInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_MOLD TEMP- H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_MOLD_TEMP_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_MOLD_TEMP_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_MOLD TEMP- L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_MOLD_TEMP_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_MOLD_TEMP_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_MOLD TEMP- LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_N2_PRESS_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_N2_PRESS_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_N2 PRESS - HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_N2_PRESS_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_N2_PRESS_ALM/HInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_N2 PRESS - H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_N2_PRESS_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_N2_PRESS_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_N2 PRESS- L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_N2_PRESS_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_N2_PRESS_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_N2 PRESS - LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_PLTN_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_PLTN_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_PLTN TEMP - HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_PLTN_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_PLTN_ALM/HInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_PLTN TEMP - H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_PLTN_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_PLTN_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_PLTN TEMP - L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_PLTN_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_PLTN_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_PLTN TEMP - LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_STEAM_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_STEAM_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_STEAM PRESS - HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_STEAM_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_STEAM_ALM/HInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_STEAM PRESS - H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_STEAM_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_STEAM_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_STEAM PRESS - L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_STEAM_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_PLTN_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_PLTN TEMP - LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_PCI_INF_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_PCI_INF_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_PCI PRESS - HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_PCI_INF_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_PCI_INF_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_PCI PRESS - H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_PCI_INF_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_PCI_INF_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_PCI PRESS - L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_PCI_INF_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_PCI_INF_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_PCI PRESS - LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH1_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH1_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 1 - HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH1_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH1_ALM/HInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 1 - H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH1_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH1_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 1 - L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH1_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH1_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 1 - LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH2_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH2_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 2 - HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH2_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH2_ALM/HInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 2 - H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH2_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH2_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 2 - L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH2_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH2_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 2 - LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH3_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH3_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 3 - HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH3_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH3_ALM/HInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 3 - H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH3_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH3_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 3 - L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH3_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH3_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 3 - LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH4_ALM.HHInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH4_ALM/HHInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 4 - HH - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH4_ALM.HInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH4_ALM/HInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 4 - H - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH4_ALM.LInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH4_ALM/LInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 4 - L - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: TCH1_CPLA_CP01L_BESH4_ALM.LLInAlarm
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/TCH1_CPLA_CP01L_BESH4_ALM/LLInAlarm"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"TCH1_CPLA_CP01L_BEAD SHARP PRESS 4 - LL - {0}"}
+      - Name: ns=5;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Enabled"
+          Children:
+          - Name: IsPull
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

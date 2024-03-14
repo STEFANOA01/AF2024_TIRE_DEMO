@@ -1,0 +1,29 @@
+Name: Type
+Id: g=41b37a0e7394c3415fc2e526418a239c
+Type: FolderType
+Children:
+- Name: MotorWithBehaviorType
+  Id: g=d39326fcd7f65fc19b49a7dd2c1ccf9f
+  Supertype: BaseObjectType
+  Children:
+  - Name: SetSpeed
+    Id: g=a40ddf461b7e00a13b73585a113b19f1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CurSpeed
+    Id: g=1cc904eb34fcdc7ddbb27a043a0d6d6c
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Running
+    Id: g=bd49c786717474da3d90ecb9c363c220
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Class: Method
+    Name: StartMotor
+    Id: g=4aeaeb404eee047a043907487f086212
+  - Class: Method
+    Name: StopMotor
+    Id: g=a23a8a2d37acd35d2882e30a6aef8b40

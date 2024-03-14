@@ -1,0 +1,54 @@
+Name: Instances
+Id: g=06240c8cb60624a0cd7757abd13054aa
+Type: FolderType
+Children:
+- Name: MotorWithBehavior1
+  Id: g=52bcb9601dc930ca22e27ea743ecd400
+  Type: MotorWithBehaviorType
+  Children:
+  - Name: SetSpeed
+    Id: g=0978a86eca72a617b625aeb2ccc9e124
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CurSpeed
+    Id: g=5f5d0434699153c3068a90790e6ae1d4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Running
+    Id: g=5d11923691b5ad28e7202b2be9704345
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Class: Reference
+    Target: g=4aeaeb404eee047a043907487f086212
+    Direction: Forward
+  - Class: Reference
+    Target: g=a23a8a2d37acd35d2882e30a6aef8b40
+    Direction: Forward
+- Name: MotorWithBehavior2
+  Id: g=258515f5f3ce6b430d7a19cc1a729ad7
+  Type: MotorWithBehaviorType
+  Children:
+  - Name: SetSpeed
+    Id: g=b340af5cb155c1172cc763ce504bea6b
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: CurSpeed
+    Id: g=2c530a0a8df49d9d29c0361f6ed1d068
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Running
+    Id: g=f408a341bcc0bd34eeb078d3a4df9685
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Class: Reference
+    Target: g=4aeaeb404eee047a043907487f086212
+    Direction: Forward
+  - Class: Reference
+    Target: g=a23a8a2d37acd35d2882e30a6aef8b40
+    Direction: Forward

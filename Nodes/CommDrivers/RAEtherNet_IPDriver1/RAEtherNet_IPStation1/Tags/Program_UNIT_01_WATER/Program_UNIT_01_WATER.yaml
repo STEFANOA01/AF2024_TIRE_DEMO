@@ -1,0 +1,2258 @@
+Name: 'Program:UNIT_01_WATER'
+Id: g=f63214516ffa3956cca2442b57ba38fc
+Type: FolderType
+Children:
+- Name: FIC_023
+  Id: g=dcfcd9c8df5f08f6e9915fc54a3bee4d
+  Type: PID_ENHANCED
+  DataType: PID_ENHANCED
+  Children:
+  - Name: AllowCasRat
+    Id: g=e42074ac6ebda2a4440af6a34af27f23
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=e74d29d5157657c3555fe3c0ff917a9e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AllowCasRat"
+  - Name: AtuneAbort
+    Id: g=71a779256dff88272a92851f59acb2d2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=7e5f26b2f418bf70da2c1672f579d4e2
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AtuneAbort"
+  - Name: AtuneAborted
+    Id: g=8fb0065ecc38a89d91069b764da890f7
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=074b9fd4b171b26e60f15b53882a99e8
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AtuneAborted"
+  - Name: AtuneAcquire
+    Id: g=c3623d392efda21bf5e7d82a953489d0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=18e2ada865fd78285e1a4fbaea634983
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AtuneAcquire"
+  - Name: AtuneBusy
+    Id: g=2ec0849d400203664aefede680157e4f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=5b2e03e2e7012d3f1f7d5324cccae4be
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AtuneBusy"
+  - Name: AtuneDataInv
+    Id: g=2ede9e8147aa7299c51023f18410de4f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=6592de7c5738391f1690a004e2b049b0
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AtuneDataInv"
+  - Name: AtuneDone
+    Id: g=455a7295b4fdafd1fef25cf2aa0a39f7
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=9e78bac82a96407fbb5f7799979625af
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AtuneDone"
+  - Name: AtuneOn
+    Id: g=a2bf771a4b150a67f8d50f62ba271c66
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=3bed79994b67f43c56f9002cdaee3b1d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AtuneOn"
+  - Name: AtuneReady
+    Id: g=6ad10573f83f3acd162c5126474dec9a
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=36211d08fb3f33341fe4b173f853f9e5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AtuneReady"
+  - Name: AtuneStart
+    Id: g=b12960ec2670a28c525082edffa97015
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=22ac8d24c081a5ed2c7dc9a18f319e31
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AtuneStart"
+  - Name: AtuneUnacquire
+    Id: g=f07de9e82dc9ed2e443ea09e80226634
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=c659102691c3efa97253a45e3356a3d1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AtuneUnacquire"
+  - Name: AtuneUseGains
+    Id: g=527148f7ceaae4eb9005bd28e06da8fb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=17ce26572439197e7eb44d9e1955f851
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.AtuneUseGains"
+  - Name: Auto
+    Id: g=c9b337181ec3d3f8698c289b4c0d0b42
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=dbb8809d2624b02b5947df6087ded338
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.Auto"
+  - Name: CasRat
+    Id: g=1bff2b1c3e994feaa561fb4c8a61adbf
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=d5f25331733eb2debeea62ff2c2afa18
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CasRat"
+  - Name: ControlAction
+    Id: g=9f9a71c6ffda5196c0a8d3127a36b29a
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=b539afa34fae3402b6ffaf1b4cb81259
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ControlAction"
+  - Name: CV
+    Id: g=8b21dfe06b3605ebd7f62edd6c4fd297
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=46a18287db79286c42dce234bf477dab
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CV"
+  - Name: CVEU
+    Id: g=ae6123c7b3d43c65b553fc0eee4951ad
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=c8a37ee1fb5f60cb15745c484d4bb105
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVEU"
+  - Name: CVEUMax
+    Id: g=b07ed4a45a9638e08bbbfaea4c4846bb
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=3a088b139052a04858ba187d696889b4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVEUMax"
+  - Name: CVEUMin
+    Id: g=d273694ebe0051a4c8d3ead15f959739
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=cce0c0aa9d84f228c073f5a5ded0b8c7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVEUMin"
+  - Name: CVEUSpanInv
+    Id: g=6290f0f18531a3e8291937186b269f26
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=5230411de51b3dccc06ef4fcff0ae2ec
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVEUSpanInv"
+  - Name: CVFault
+    Id: g=8434ad8e09f7bc4abef1433b0b0ff276
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=fbd876bff0e23cdd2fc85f29ce65164c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVFault"
+  - Name: CVFaulted
+    Id: g=9f1d070173dea2dbece3d8d93720a3c6
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=f4c657a6b43ab8ba06e1b3576beb9a4f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVFaulted"
+  - Name: CVHAlarm
+    Id: g=73b70711cdefb044b7ff73e4ac44f059
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=64260cd9e5dd3fe90a10829e6509e152
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVHAlarm"
+  - Name: CVHLimit
+    Id: g=9156614bcb4715a1d35b271f253e36c3
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=7455b0f5d5913201f58fd50a4e85820c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVHLimit"
+  - Name: CVInitializing
+    Id: g=23a72934a20e2acf3dcb917ef10de492
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=6738a20112589a3d946dfe983f668557
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVInitializing"
+  - Name: CVInitReq
+    Id: g=f966f3ef780a483d546d8b1bd261e3d1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=9a2431bd6373f2c32d2fd41cabb9afb7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVInitReq"
+  - Name: CVInitValue
+    Id: g=cf4adc1b74374b73de50e5d5c2392e86
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=c4ace947b9603cc520d118e7edb1bb13
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVInitValue"
+  - Name: CVLAlarm
+    Id: g=ffeff3f3b2456ed6c0be96c15d982516
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=8cf87b7f8646145ddf16f4ab4311cb1b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVLAlarm"
+  - Name: CVLimitsInv
+    Id: g=57da06f69bd03717036f8dc01d615ac0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=75b9d2a5a315ea3a23001757d83085a8
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVLimitsInv"
+  - Name: CVLLimit
+    Id: g=574d9e9d8130781df2b8c9e8c19c4ad5
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=be6355ab8bfe653fedc844bba800f0f0
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVLLimit"
+  - Name: CVManLimiting
+    Id: g=09186c6b6497beef52ecd304c3b1fe97
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=eaabe219e996f0b65e740f1886be7d8c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVManLimiting"
+  - Name: CVOper
+    Id: g=b69db22c0f1f0effad90daa0a3908d77
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=8d0ded9780d540a5ffd5abbd6d8ec323
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVOper"
+  - Name: CVOperInv
+    Id: g=3dc67c0b0f6f727f481ec4e04def4977
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=b4895a3d8357cfd5ac983966a4ac1e48
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVOperInv"
+  - Name: CVOverride
+    Id: g=62707323bf57d41ea41a5f73b6f52a30
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=f16329de65e887549aa7f643293cd2a9
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVOverride"
+  - Name: CVOverrideInv
+    Id: g=251874fe9d86f117ec48d6d040a90218
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=0cf02493fc306e7ef5f904ecd0ebbcc6
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVOverrideInv"
+  - Name: CVPrevious
+    Id: g=76d6016cb534cc73a4e10e0b6d541615
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=6c79950311bb90182f48ffa1138eb825
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVPrevious"
+  - Name: CVPreviousInv
+    Id: g=dcb1234673ae5aa725369926b704bbec
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=63af10003a07554f1e09ef55f2c337b5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVPreviousInv"
+  - Name: CVProg
+    Id: g=b94973cd61f2cbd2e2b19747145e9678
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=0aca993b5a46dd63683719690f3d6a6e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVProg"
+  - Name: CVProgInv
+    Id: g=86bd6a1d6c6621f3da32fac60ceb1f38
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=cc07fd75d25a75cf58d70c7996b5e588
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVProgInv"
+  - Name: CVROCAlarm
+    Id: g=18ef7ae45dcac2aff46183b145ddd200
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=22b73816afcf345b5344d5b3b30b99ba
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVROCAlarm"
+  - Name: CVROCLimit
+    Id: g=da0c106574cddf7a97c4a4d0fdecb175
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=4f8f2653e786dad829f54d6f99d44886
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVROCLimit"
+  - Name: CVROCLimitInv
+    Id: g=9be3f89f1517246c80581d373ace4cf7
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=53fab7c82657b1527003ca0ec9deee09
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVROCLimitInv"
+  - Name: CVSetPrevious
+    Id: g=418a76ebd92ced929075aa9418ab4978
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=fc69f8624afc4295ddfd9001e31c8628
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.CVSetPrevious"
+  - Name: DeltaT
+    Id: g=5ae5eb6d267328dfed38190bffde2f6b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=ba537a834f9abb910ae675b7348a0ce2
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DeltaT"
+  - Name: DeltaTInv
+    Id: g=84c6f64d6c32d4e34e9cdb33b668c0f8
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=781b62b148292fdf3f391f615b3c0400
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DeltaTInv"
+  - Name: DependIndepend
+    Id: g=3a7532a98f0bc25fc48d9dd84e6f71c0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=08a65a353635c5fca58bd87f1e52aaf4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DependIndepend"
+  - Name: DevDeadband
+    Id: g=432571e5ec48cf86b157502f9c4e75cf
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=80d5542b8e5aee6a05600cc62c3a2525
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DevDeadband"
+  - Name: DevDeadbandInv
+    Id: g=2bff5d61d65e39d798192ed3139057a7
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=ccea53cfb1553f3f70ef7b22adfb78a3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DevDeadbandInv"
+  - Name: DevHAlarm
+    Id: g=f58c306744c9413f91692d0c027ab9bf
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=86c302b0be3dc0f0f33dea077063cf12
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DevHAlarm"
+  - Name: DevHHAlarm
+    Id: g=f814672ad007e2f9da27da35b4beb452
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=344b808d3da265b447668aa9bdc8d855
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DevHHAlarm"
+  - Name: DevHHLimit
+    Id: g=a547d39640858204aacd72655fdbb13d
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=0b1c5a638df6a2175c8b625cd8fa9260
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DevHHLimit"
+  - Name: DevHLimit
+    Id: g=8660adec80153aa89dbe7eb556b42116
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=33238e96d4264582f12bb3b19047355f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DevHLimit"
+  - Name: DevHLLimitsInv
+    Id: g=0ac9019c7d9a2a252bd47449f8791769
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=9dca129a065ce66ac5626c50d1d4d10b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DevHLLimitsInv"
+  - Name: DevLAlarm
+    Id: g=0f954f3c2e40a1d74521f028202be8ef
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=a10119993b5ee4187be07b410827bafe
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DevLAlarm"
+  - Name: DevLLAlarm
+    Id: g=bb28b724195a6c06b54948d94c20ccd2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=5efffad827f66ea4404d5df7ef953170
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DevLLAlarm"
+  - Name: DevLLimit
+    Id: g=200dc439b830fbae79c772615559a296
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=7c39abe4e0179d42fac3b5d2673de900
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DevLLimit"
+  - Name: DevLLLimit
+    Id: g=e221cce966a0962c0085178ee94de3f2
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=4d5ea93cff3b61cb25f106167d80bcae
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DevLLLimit"
+  - Name: DGain
+    Id: g=3547c74d6dff491efcdebb6bac5f312e
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=0943a04bbccb1e20b03fd6b2c57f05b7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DGain"
+  - Name: DGainInv
+    Id: g=c8513efecbc29ad4a51d38d9647a1202
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=e7a155893cf3a8bdbf8ca36114d31046
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DGainInv"
+  - Name: DSmoothing
+    Id: g=e3786d3ed411087a37fd98a67b86aa10
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=6d34e449d3db298b6802bed7525d5b34
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.DSmoothing"
+  - Name: E
+    Id: g=e710d7345150cd49c9746f9195e7572b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=a3af63e42c494b03065838ed5a32529a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.E"
+  - Name: EnableIn
+    Id: g=e4912d1c4a7c17e1270e8ad87c0ba354
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=890325e90880f7b55fdd8523765450f4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.EnableIn"
+  - Name: EnableOut
+    Id: g=38568d37b0b7a9ecd714845a37e51313
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=e5a6cc8e15ec97c06960b63332115077
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.EnableOut"
+  - Name: EPercent
+    Id: g=88c9587ef0b8bf870dd3045130300072
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=59bd0e9473edb1300add7eeeaabd5cdf
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.EPercent"
+  - Name: FF
+    Id: g=1da5c92c2d7aa60afc1da09cab17c8dc
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=af6ba8958f15aaa3c0ac2cce1b6646c8
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.FF"
+  - Name: FFInv
+    Id: g=098bbfc7f0798ef30c5e03093209b9da
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=36fd77c7242c2a1822f1ed02d164dab8
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.FFInv"
+  - Name: FFPrevious
+    Id: g=144d05aba12b27e592aac193e4684b09
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=f8f53bb50139b7736b8100cc1e55466a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.FFPrevious"
+  - Name: FFPreviousInv
+    Id: g=53b8bda37e8cf67c1a8184bc66c0a0e7
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=80b7358f46a1469ec775025261467074
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.FFPreviousInv"
+  - Name: FFSetPrevious
+    Id: g=49ecb78fd60801016b81d329bba6044b
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=e6861dcb93bb995f33292ac56adb5df3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.FFSetPrevious"
+  - Name: Hand
+    Id: g=cb7dfcae1b552acf019e815f3d4eac5d
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=83a3b6e3290944d2db104efa0dea769e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.Hand"
+  - Name: HandFB
+    Id: g=5a94d744f9150b533251f51e3b3b38a5
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=ac6677affec444a2f448943a15b3407d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.HandFB"
+  - Name: HandFBFault
+    Id: g=c223f530d760c2472cf03d24b6f7b984
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=24e3f081259a3f7eb1314c9a4f027690
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.HandFBFault"
+  - Name: HandFBFaulted
+    Id: g=5239565b320ec1235d4099299556f2aa
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=208dca0dab35d59a95d1cef45b3016bd
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.HandFBFaulted"
+  - Name: HandFBInv
+    Id: g=3af4bc928c4f3f7835e05af7bd836ee5
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=3da39caf2323c8736fa832f2a8d66696
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.HandFBInv"
+  - Name: IGain
+    Id: g=817dd7b54b1b1193cc14bf922177d170
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=b0e94cfb31c2db2235f4c6ba7822c655
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.IGain"
+  - Name: IGainInv
+    Id: g=f09da53d015a0d18d2d828607cd8257e
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=0ab0a3d93a6369b21045a5398bce51c1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.IGainInv"
+  - Name: InitPrimary
+    Id: g=3d50d4638ebfc9c2df2048d6642b3139
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=ea2db5b7d7cff21bbd5e388cacd93565
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.InitPrimary"
+  - Name: InstructFault
+    Id: g=89216137b214db73c8bed663dbb9f38f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=07f2ef303d20e8055648556ea9459d01
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.InstructFault"
+  - Name: Manual
+    Id: g=2dc68e8cec02b92eb5268e2f5b2a0041
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=0a2d8c9f6bed10d465d45eaafb172f27
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.Manual"
+  - Name: ManualAfterInit
+    Id: g=2c311ec1509909c80cc7f8846940d40e
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=5b98db31525cb934eefa1b411475eb7c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ManualAfterInit"
+  - Name: OperAutoReq
+    Id: g=4fab87007b2da3b33bdef82c4b720bbe
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=35eece85cc992a71a3792cf35c3b658a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.OperAutoReq"
+  - Name: OperCasRatReq
+    Id: g=3364ee60a6a1ba95cf56c8b8fe772e8f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=4f43d2cd1053647f2ffa00dd55b124ea
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.OperCasRatReq"
+  - Name: OperManualReq
+    Id: g=1769660dbd6a429785e8d2b562fa00f3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=8da7f0ba480163c2f87f1535fd1d9d0e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.OperManualReq"
+  - Name: OperOperReq
+    Id: g=bf891a64988b4655f26eec78a2ee4a7b
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=bdc3eee2b8e03fedc6e8d47b3a692a86
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.OperOperReq"
+  - Name: OperProgReq
+    Id: g=b7084c904a5a12ebacd48914915fe619
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=3d6d443b8f6dcfd5b076bcd7ebcaa9ea
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.OperProgReq"
+  - Name: Override
+    Id: g=616aeeede424da84e344de0f49565867
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=55ee4fedbf3c6d5066ca5a85b73b92b3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.Override"
+  - Name: OversampleDT
+    Id: g=85cdb777660bfb91d342cd4efaaef5e4
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=d5ef091ddca8701b6b23fdf19d9a980c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.OversampleDT"
+  - Name: PGain
+    Id: g=466543e52e0b46939961767882788063
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=b384c610da2795b7fd533b6206abf9ec
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PGain"
+  - Name: PGainInv
+    Id: g=352383a5a746e31eb9e8afd923aba3bb
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=ed3317b7ef4a350e4d989d582e96411b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PGainInv"
+  - Name: ProgAutoReq
+    Id: g=a5b3d08413a89abf41d86763d525aed7
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=e2774d5d35cd7764daf4b43de1a3e683
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ProgAutoReq"
+  - Name: ProgCasRatReq
+    Id: g=e094e37afa349a0dd8b051c202950835
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=9726c3c6e71b5f5b50725e0d7b869ab3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ProgCasRatReq"
+  - Name: ProgHandReq
+    Id: g=9aaf75967b3e3aea0bcf32f2d74aaa53
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=49d4cf90831c403deba5a77df3ad1dd5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ProgHandReq"
+  - Name: ProgManualReq
+    Id: g=b1a3f6fe7212a35277dde4770fb30ec5
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=10a865ac47285bd97fa5620a7a199514
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ProgManualReq"
+  - Name: ProgOper
+    Id: g=afc23f651667b1bf88cb802f6bb123dc
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=fb654cd020f7f219cc644fcfae71e920
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ProgOper"
+  - Name: ProgOperReq
+    Id: g=d2ab1e1194fdc07a327d1073e3143f99
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=91a9febe573e0c68b47dd9bfde6a70a4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ProgOperReq"
+  - Name: ProgOverrideReq
+    Id: g=df87e2eac9fe55e932b7cd868a01e881
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=18e9d4c613af65ed115628d324f7821b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ProgOverrideReq"
+  - Name: ProgProgReq
+    Id: g=86a59a46cb963d7364d98045fa4ff4ef
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=795f7db23768ea4fbfe55c1586c77ac0
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ProgProgReq"
+  - Name: ProgValueReset
+    Id: g=0b63974d9a7e7dc941257ddec6aa17b6
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=eb35750fe0ffe950430753c06cde1351
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ProgValueReset"
+  - Name: PV
+    Id: g=6ba1eaef2627e665166fed4792043df2
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=eae9ea560679b5de60fbcd366c49828d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PV"
+  - Name: PVDeadband
+    Id: g=de5051d0d9b9ec1843c35735ba094ed9
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=e6638b8c954faddf4fe3f13f38f93b7f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVDeadband"
+  - Name: PVDeadbandInv
+    Id: g=e7954d231d904708bd08b4beb5a9791f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=97c88266cf300056ae74d165dd89eb85
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVDeadbandInv"
+  - Name: PVEDerivative
+    Id: g=b16d2efd802b254b1b46b693704d409f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=6a33a8f1c02e6812b1dd1f6fe10c25e5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVEDerivative"
+  - Name: PVEProportional
+    Id: g=22a57f31ed9b973e78805fcb571f98d7
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=36c019f3eb32b5ee853e679d9013ac2b
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVEProportional"
+  - Name: PVEUMax
+    Id: g=722e6a96c3398429b8568d0728eb36fb
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=3b01d8c79dff54012b90036aedf9410a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVEUMax"
+  - Name: PVEUMin
+    Id: g=193e98acf4a1ec6624d0c17aa8c88a7b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=a60167fbbd5bee5cccde66a4b3500884
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVEUMin"
+  - Name: PVFault
+    Id: g=d374742573131daa671a9621bfbc9731
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=5b743dcd0f17e625fa49e66c1608daf7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVFault"
+  - Name: PVFaulted
+    Id: g=35d9c4b75a9c931920f2e32590b1f208
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=a202ce59050260a8965cf0228a7e9020
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVFaulted"
+  - Name: PVHAlarm
+    Id: g=98a8ec6215fcc653ddd3a23c6a564e89
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=1ce2ad889febf67b4e244b8cfa3f4ad7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVHAlarm"
+  - Name: PVHHAlarm
+    Id: g=7d9264d657ea205b770d75c61793f338
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=16dabe9fe00b48fac30af3155518342d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVHHAlarm"
+  - Name: PVHHLimit
+    Id: g=d0297e5894f0f11b0f1d2471df7d08f9
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=ea8d965476b401febc10e469847a5c69
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVHHLimit"
+  - Name: PVHLimit
+    Id: g=34651e83c9e53e6acc2c62fd4e24735a
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=d91bb5adc478983175b40b4bda1d01c2
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVHLimit"
+  - Name: PVLAlarm
+    Id: g=675084feac6917bf65e1d56872952706
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=71fe9281072867363e0f1ca7ec559bc1
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVLAlarm"
+  - Name: PVLLAlarm
+    Id: g=94cb502f43aa2138e976ee712e6bc898
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=85d6cbcf4993759be56eb7b973f9ce5c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVLLAlarm"
+  - Name: PVLLimit
+    Id: g=573cacb16a677c0246ddc956d14162b7
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=bd7e3784d0a4f8e6019a9798a8f13c47
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVLLimit"
+  - Name: PVLLLimit
+    Id: g=100e93c30f543a0d8e695f10f7354461
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=f99affa5bbe0ec7892f8df5f63761392
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVLLLimit"
+  - Name: PVPercent
+    Id: g=19311ad7284ce8247b81cb05df2625a1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=8ba58c5e0399f00763eb2585b6cb6c34
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVPercent"
+  - Name: PVROCLimitsInv
+    Id: g=f26fcd64b8d1694d08f7bf4b155a826d
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=c62cba9ef1dec75a65393c30509dfc5e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVROCLimitsInv"
+  - Name: PVROCNegAlarm
+    Id: g=fc4d0ae207d50b702a6d443f17aa07ab
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=c223ece0cb411e2dab39f28876b7d1f5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVROCNegAlarm"
+  - Name: PVROCNegLimit
+    Id: g=ddb79b64acc17172b850b9549883b8e3
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=7935457a1982287b4f89a07d352e689f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVROCNegLimit"
+  - Name: PVROCPeriod
+    Id: g=556fbfd017745b24f860645f2d068acb
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=91d6223398dfd870a700e1c3b5036d13
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVROCPeriod"
+  - Name: PVROCPosAlarm
+    Id: g=53394040346e3dc06be5409a9f370069
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=4379eaf29dfaa9832791273b327cdc74
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVROCPosAlarm"
+  - Name: PVROCPosLimit
+    Id: g=b81ab3f8e00ab4ff6fbd898ff061f159
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=c00964375a3eee897a5ae36a5061b42f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVROCPosLimit"
+  - Name: PVSpanInv
+    Id: g=9e483d2effebcb0ee0a4c998414f6d6a
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=319a9c87ba9fc7c6a028f1fd6de6551d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVSpanInv"
+  - Name: PVTracking
+    Id: g=14ee81098bfd108ab809566bb42009a8
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=cce959351e5432a70615bfdd00b89ae3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.PVTracking"
+  - Name: Ratio
+    Id: g=e0322b4056c259c5717ce5035d2c7675
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=e69bbd60eb3c6defdf82fcac79a12c7d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.Ratio"
+  - Name: RatioHAlarm
+    Id: g=7bc884c89c9f6f8ea02216caa2e34011
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=faba8ea7125ef11eb3d6fb8c13b29903
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RatioHAlarm"
+  - Name: RatioHLimit
+    Id: g=f4f9e7b5b30a339be82f1ebe63e6b356
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=aa20b1d5c66cb95f10b53b24b919329f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RatioHLimit"
+  - Name: RatioLAlarm
+    Id: g=6fd345edf14a47b27489079c8cc301bd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=09664ae70d9ad362b4ba7d77e73297ce
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RatioLAlarm"
+  - Name: RatioLimitsInv
+    Id: g=59a6bcbd2681d387f4f147decf0db13d
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=51bd6950329320b4af0a6da13b4fa035
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RatioLimitsInv"
+  - Name: RatioLLimit
+    Id: g=1598633d7a003abfda3e6f646c8b20d9
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=b94e6b862d02b877020554a6ea5f227f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RatioLLimit"
+  - Name: RatioOper
+    Id: g=c2c59ed198943fa29508783700f8d66e
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=a6f9fb03e084969a4fb9430aafd44abb
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RatioOper"
+  - Name: RatioOperInv
+    Id: g=9259d839d4995e6788dee76fafe87b1b
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=3f18afce7623805f96d63c257e83d020
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RatioOperInv"
+  - Name: RatioProg
+    Id: g=16a032117259b9691cb3a94e0cc0ae3a
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=049173da22dd3bc765773fbf5286fac6
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RatioProg"
+  - Name: RatioProgInv
+    Id: g=50b1200ab67c221d948d20c5d5f26177
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=841043e296caff9f63d9571624d94859
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RatioProgInv"
+  - Name: RTSMissed
+    Id: g=a65ad296c9de016dd6070be531547ca1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=80e981bdd060a4d0606798c688a406ac
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RTSMissed"
+  - Name: RTSTime
+    Id: g=0f5a14c087c2b64210a25398c8493f0c
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=4590d489f2c873a8bdd3628eb3965a0e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RTSTime"
+  - Name: RTSTimeInv
+    Id: g=c5a13351d039c533501ab632198234e3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=3dd7af8ced676f603e9fa1ee6cdedef6
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RTSTimeInv"
+  - Name: RTSTimeStamp
+    Id: g=385be3a9f8cb5afc18721ce037c7a24a
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=d171bcbdf651017d1cf04871a0333cb7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RTSTimeStamp"
+  - Name: RTSTimeStampInv
+    Id: g=219d0b2c3a4d633fbd54ba97acb28075
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=2eea541688d0a10d652dced00e7f18ef
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.RTSTimeStampInv"
+  - Name: SP
+    Id: g=8150b1ffd7c5769ed4702376966a2d0b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=c8639ffea3a4a4cc7c4b7aceb396d159
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SP"
+  - Name: SPCascade
+    Id: g=e4113e09981b66ca4c7d5109deb09703
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=511d0dde4a06fa24bcdc8363608da822
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPCascade"
+  - Name: SPCascadeInv
+    Id: g=e6d8bd989c77b76cac312027d82f225f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=8d25a4c0652e0915ce8aaa680a76ef6d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPCascadeInv"
+  - Name: SPHAlarm
+    Id: g=bf8d34e0d68af627fc4a7814eb29a122
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=2455c402ddc69a2d43123b2fe0d42d09
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPHAlarm"
+  - Name: SPHLimit
+    Id: g=a1b45cd3b8faafd52e212d9a7504c8fd
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=81aaa60677b95e7b8b1eba46622e1077
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPHLimit"
+  - Name: SPLAlarm
+    Id: g=bc1b76429167ce9d44bff1f474aae96d
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=1d084d43048c512e18e27372a3cd166e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPLAlarm"
+  - Name: SPLimitsInv
+    Id: g=ec962d4f4dfbe56ce2ce2afec109938e
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=ae435ac42f3ef47a20bd4556d7a687fe
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPLimitsInv"
+  - Name: SPLLimit
+    Id: g=1f55fc6ca713fff62e87cca9ef75328f
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=4d501d3fe049778148002798f2920964
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPLLimit"
+  - Name: SPOper
+    Id: g=469374acb82f2d0b1214f89443bac7df
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=8360e3bffdc33031bb1e386e27bbed94
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPOper"
+  - Name: SPOperInv
+    Id: g=40e8d484dfe3436325ff044f864c3751
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=034803694a77e972612132f6ab8d7239
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPOperInv"
+  - Name: SPPercent
+    Id: g=54353d5ce0a1cc4652fe000dd4da4d0a
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=dd897b4b484e18fed265f6ae63fd9838
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPPercent"
+  - Name: SPProg
+    Id: g=488a8a4fb7c109f942b650403fde23fd
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=f5c1a719760a70772325dea8a470f01d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPProg"
+  - Name: SPProgInv
+    Id: g=d32ba363e9baefcdadff4637e81960d0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=3031ce80e1f078be807bbc94cb5f0a8e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.SPProgInv"
+  - Name: Status1
+    Id: g=fcc475b88e1c96d4898dbbdd2b82e6f5
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=a652d2f5a797eb04d1a87247ee397558
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.Status1"
+  - Name: Status2
+    Id: g=896730c741d81b427d69e80100462e9c
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=a623a0c5a67702eee95fd62276c468a5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.Status2"
+  - Name: TimingMode
+    Id: g=31c4198021747214442ffbcf4b44a46c
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=30823c95e72b3161f7e7a5bf24ed6953
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.TimingMode"
+  - Name: TimingModeInv
+    Id: g=281d8b163e8b60d1f1c68b36920258b8
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=5c66cf6ee787e410b9211e4e893dad45
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.TimingModeInv"
+  - Name: UseRatio
+    Id: g=cf834780920b55a93f18b2c9464fdd7e
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=519d6b0b22ce74222ee4751f6ffceaf7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.UseRatio"
+  - Name: WindupHIn
+    Id: g=9913de7ea01ad4a1f14f275f6f834e3b
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=24c1cb68fa64e146e7f85c7a13d5e6fc
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.WindupHIn"
+  - Name: WindupHOut
+    Id: g=ffc139c9c786a79d0147324d87adb59c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=77d04c612756bd49ef801e3dca3e706e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.WindupHOut"
+  - Name: WindupLIn
+    Id: g=68d575f6436fef88d20652dcded44395
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=c4587691b4c7ae63eb5e90694c116ac8
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.WindupLIn"
+  - Name: WindupLOut
+    Id: g=08305f5d1c995eddb0d6a71b9533090e
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=3a3c43f247216e4fc9e9ee5b90737907
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.WindupLOut"
+  - Name: ZCDeadband
+    Id: g=08a8087121513ed6ccbb2ae7611366b8
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=70df927cd2752a0118ba7165cfebdfa3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ZCDeadband"
+  - Name: ZCDeadbandInv
+    Id: g=4adc06c080b5f992758f1563b03e2967
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=0c11df14e66056d92b4245c32ee48115
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ZCDeadbandInv"
+  - Name: ZCDeadbandOn
+    Id: g=1d1ddf3aa3479a9a85738320da7654c3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=f3e7fc3551fafc7adbaf8d0e65ca165a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ZCDeadbandOn"
+  - Name: ZCOff
+    Id: g=4f691b3cf2d013fb3c219497a32d3498
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=ec7d2ff89620e1e40d585c019ff4e169
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023.ZCOff"
+- Name: FIC_023_AUTOTUNE
+  Id: g=a5d2387e00c1ee7f48f933914334e945
+  Type: PIDE_AUTOTUNE
+  DataType: PIDE_AUTOTUNE
+  Children:
+  - Name: ATuneAcquired
+    Id: g=5a916958404523977c4de3359e60587c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=df0e5fe1d99ced679ab9f604b219850d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.ATuneAcquired"
+  - Name: ATuneFault
+    Id: g=a70c3ab5bfa76639464c03d4d3c9adb1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=dca52b5e2753584f889131bcdf4b6d6f
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.ATuneFault"
+  - Name: AtuneStatus
+    Id: g=7322da33ec14138a26338e8fa5725d88
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=d5040555331e7235ee97b363f7021a64
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.AtuneStatus"
+  - Name: ATuneTimedOut
+    Id: g=191ddec47682e1ce66658801232902e5
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=0bcee98c2dc2932094bac80f4d989755
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.ATuneTimedOut"
+  - Name: CVChanged
+    Id: g=aa42838b433db1331cfbbacf716d44d4
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=f8ea1364dfe42ccb8bfedaa8a9751db7
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.CVChanged"
+  - Name: CVInitFault
+    Id: g=b8077d40cb7622595a0a3cfb921bf498
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=d13f7126c561e72e4e6905020e00b656
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.CVInitFault"
+  - Name: CVLimitsFault
+    Id: g=5f3b7e5d7e7a1d2e46b08718c3e532fe
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=6e65bdb96df5bb74e152d7422ba2ae37
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.CVLimitsFault"
+  - Name: CVWindupFault
+    Id: g=b7023e6f4d76347be450a7ef1831ac65
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=12b53aecf2658e7ea60e42e54944119c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.CVWindupFault"
+  - Name: DeadTime
+    Id: g=7ece947d4f5f2fbd17d5abf0c811b6f1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=fbed509f137bb222df1bd6fceb88f4dc
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.DeadTime"
+  - Name: DGainTunedFast
+    Id: g=e4faa0ac21358763a834399d5abf0284
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=0eb2e58d7d65ad88a6fc1ae875daf82e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.DGainTunedFast"
+  - Name: DGainTunedMed
+    Id: g=04303119d5334164c98d52fabc0b4f26
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=2c3b9dea5e8000219b95b1fbe2c1b82e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.DGainTunedMed"
+  - Name: DGainTunedSlow
+    Id: g=0639fb278f664597d1333897d8c5ba44
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=4d9b40c7643a30d52c76f5818a11d6e0
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.DGainTunedSlow"
+  - Name: EUSpanChanged
+    Id: g=76eff6420543d2aa5beaff2edc549afe
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=2c47e8b790ce1d9e1507425dab4f5e39
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.EUSpanChanged"
+  - Name: Gain
+    Id: g=33a22cdb882f577dd47387032cefeb01
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=2fa7dddf769beae18b195a4eb13401a6
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.Gain"
+  - Name: GainTooLarge
+    Id: g=0c0d2ddaa46d0d4829009213efe80e17
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=2df526a2570102b4f36a3d20973b151e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.GainTooLarge"
+  - Name: GainTooSmall
+    Id: g=45042d516ad25e9a7d4df66d05646036
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=bbb7dcd8af6fef102026d00f759975f5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.GainTooSmall"
+  - Name: IGainTunedFast
+    Id: g=8147dbf7c3cadd32ec121e51f9074085
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=241d536fff6c1054fc970a57eb025c5d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.IGainTunedFast"
+  - Name: IGainTunedMed
+    Id: g=ca2f12a390228b3c451c8fd9058aadfb
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=9ba6b6dbb1bdb724b461cf35075875fa
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.IGainTunedMed"
+  - Name: IGainTunedSlow
+    Id: g=9779f245a1cfe765a5d1ee36e4895de9
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=1f21c806a9daeaff9b6c5edc8bdfb2c4
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.IGainTunedSlow"
+  - Name: LongDeadTime
+    Id: g=ca728b0aa5e0b4c71a864fa7dfd1c618
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=9b9cfe9a78decadda8de2fc097989b97
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.LongDeadTime"
+  - Name: ModeInv
+    Id: g=1a595b273e88549d944b5c5ae0c84219
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=a7e36cb3f751a210c22df652035312e3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.ModeInv"
+  - Name: PGainTunedFast
+    Id: g=330cc3784e782e432521d40aa151fc0c
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=f5b17b47b93c102feeb5fe68c97c3a0a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.PGainTunedFast"
+  - Name: PGainTunedMed
+    Id: g=85ec015cf55bb944fdcf04982c375dfb
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=f2f73f847ec669b533093584770f2d62
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.PGainTunedMed"
+  - Name: PGainTunedSlow
+    Id: g=7f0347bdd69d6d89ca6e9d74a1199bdb
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=5b27aa5fe3a163060826089393d5df67
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.PGainTunedSlow"
+  - Name: ProcessType
+    Id: g=1125727365bc711ccc4e39ec701d056e
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=dddd4840c8054d330b4571e09fce317a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.ProcessType"
+  - Name: PVChangeTooSmall
+    Id: g=d7a2283c5014e0f2aff4f290bc6e892e
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=8b94abcd46538c16dc035c7fb59eb0da
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.PVChangeTooSmall"
+  - Name: PVNotSettled
+    Id: g=99b0225d4011687dcf6c4d0ef33d957f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=fe22712fd30c3316b5f306ae37d32931
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.PVNotSettled"
+  - Name: PVOutOfLimit
+    Id: g=d17927294099ac90193c7693cbd8bc0c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=c3bdb6cf5687f20e9f1c0a3da4a2cce6
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.PVOutOfLimit"
+  - Name: PVTuneLimit
+    Id: g=1ac6bdd66f62c48ddb4b9b8cec6e4558
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=cb52e7da29e8a96cc7b3bc5d72a187c5
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.PVTuneLimit"
+  - Name: ResponseSpeed
+    Id: g=362be57192cb06372595b9cfab018be4
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=602dc00994af52ca67ff5c34aafdefd2
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.ResponseSpeed"
+  - Name: StepSize
+    Id: g=9bc49ebd66ac822d9d917c408b2b3c45
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=00f9aa14f736dd5b7f7e5888b8e6817e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.StepSize"
+  - Name: StepSizeTooSmall
+    Id: g=9bdf99e925749f17c03efd2e05294693
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=22a1dc4370b49c2f1fe30a6eeb0f1366
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.StepSizeTooSmall"
+  - Name: StepSizeUsed
+    Id: g=ccf72f3ec8e5d8d46f9392b464b8e03b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=34e483438eff6275ce3fbbf06858f2d0
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.StepSizeUsed"
+  - Name: StepSizeZero
+    Id: g=94afcd662adffbf816583682d0efe24f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=e60d38dfc60b98e6422da038e221773c
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.StepSizeZero"
+  - Name: TestLength
+    Id: g=6b986c4cfb8e7192f1784e378149903b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=fecd1a2117023915e87522d88189b51d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.TestLength"
+  - Name: TimeConstant
+    Id: g=c84849e8b02116988d6e5be56cf79404
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=22e9d055848fc2706c9244f263b25fd9
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.TimeConstant"
+  - Name: TunedGood
+    Id: g=18cad489cf9ec3f79f9a1f75d1d0964e
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=f762fc4a128825d39beb84e837ef3bbe
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.TunedGood"
+  - Name: TunedUncertain
+    Id: g=1e5b039bfd79de1796c352f5cf2192b5
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=8af749d290d87ae38c43ef8f28299e91
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.TunedUncertain"
+  - Name: UsedProcessType
+    Id: g=917c2ab7489d2d62ed40d196c666a4d4
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=9b8d32f96613a884180892b3e0bd2cdd
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UNIT_01_WATER.FIC_023_AUTOTUNE.UsedProcessType"

@@ -1,0 +1,505 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: PIDLoop_DB01
+  Id: g=82efaed7cc6876ce42afd2ebe73ee956
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: TIC_001CV
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:UNIT_01_STEAM/TIC_001/PV@Value"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: TIC_001SP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TIC_001PV
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+  - Class: Reference
+    Target: ns=25;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+- Name: ODBC_PIC_DB02
+  Id: g=086e0feeb6d0906dcbcbf46d4f9175f1
+  Type: ODBCStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: WAREHOUSE
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: IDENTIFIER
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: ITEM
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: POSITION
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+    - Name: DataLogger2
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: PIC_002_PV
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+    - Name: INVENTORY
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: TIRES
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: QUALITY
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+  - Name: Type
+    Type: PropertyType
+    DataType: DBMSType
+    Value: 2
+  - Name: Username
+    Type: PropertyType
+    DataType: String
+    Value: "RA-INT\\scacces"
+  - Name: Password
+    Type: PropertyType
+    DataType: Password
+    Value: "GOdismylighthouse9!"
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+  - Name: DSN
+    Type: PropertyType
+    DataType: String
+    Value: "FTO"
+- Name: CPRESS_SQL
+  Id: g=ed5d21a454e34fb528ebbf22fb9f9c1d
+  Type: ODBCStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: CPRESS_LOGGER
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: RECIPE
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: CODE
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: MOLD TEMP
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: STEAM PRESS
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+  - Name: Type
+    Type: PropertyType
+    DataType: DBMSType
+    Value: 2
+  - Name: Username
+    Type: PropertyType
+    DataType: String
+    Value: "RA-INT\\Sanfossi"
+  - Name: Password
+    Type: PropertyType
+    DataType: Password
+    Value: "DontBringMeDown"
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
+  - Name: DSN
+    Type: PropertyType
+    DataType: String
+    Value: "FTO"
+- Name: CP01_APM_LOG
+  Id: g=daec1b5ac90aab6b6921c629432375b9
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: CP1_PERF_LOG
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=11;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=11;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: TCH1_CP01_AVA
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: TCH1_CPA_QUAL
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+        - Name: TCH1_CPA_PERF
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+  - Class: Reference
+    Target: ns=25;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=11;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=59
+    Direction: Forward
